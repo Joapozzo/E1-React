@@ -8,7 +8,7 @@ import Layout from '../componentes/Layout/Layout'
 import Home from "../componentes/Home/Home"
 import About from "../pages/About/About"
 import Contacto from '../pages/Contacto/Contacto'
-import Productos from '../pages/products/products'
+import Productos from '../pages/Products/Products'
 import PageError from "../pages/Error/PageError"
 import { ContextoProvider } from '../context/Context'
 
