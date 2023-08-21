@@ -32,7 +32,7 @@ const Navbar = () => {
                     <li> <NavLinkStyled to="/"> Nuevo </NavLinkStyled> </li>
                     <li> <NavLinkStyled to="/products"> Productos </NavLinkStyled> </li>
                     <li> <NavLinkStyled to="/about"> Sobre Nosotros </NavLinkStyled> </li>
-                    <li> <NavLinkStyled to="/"> Contacto </NavLinkStyled> </li>
+                    <li> <NavLinkStyled to="/contact"> Contacto </NavLinkStyled> </li>
                 </ul>
 
                 <IconDesktopContainer>
