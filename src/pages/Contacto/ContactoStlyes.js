@@ -5,6 +5,7 @@ export const ContactWrapper = styled.section`
     flex-direction: column;
     padding: 80px;
     align-items: center;
+    justify-content: center;
     background-color: var(--blue);
     color: var(--white);
     height: 100vh;
@@ -16,6 +17,7 @@ export const ContactForm = styled.form`
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 30px;
     width: 100%;
 

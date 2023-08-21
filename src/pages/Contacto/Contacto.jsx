@@ -4,7 +4,7 @@ import {ContactWrapper, ContactForm} from "./ContactoStlyes"
 const Contacto = () => {
   return (
     <ContactWrapper>
-      <h2>¡Contactanos!</h2>
+      <h2>¡Contáctanos!</h2>
       <ContactForm>
         <input type="text" placeholder='Nombre' />
         <input type="text" placeholder='Apellido' />
