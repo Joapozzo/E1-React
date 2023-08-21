@@ -5,12 +5,13 @@ import Product from './Product'
 
 
 const Products = () => {
+
   return (
     <ProductsWrapper>
         <ProductsContainer>
             {
                 products.map((item) => {
-                    return <Product key={item.id} {...item} />
+                    return item.destacado ? <Product key={item.id} {...item} /> : null
                 })
             }
         </ProductsContainer>

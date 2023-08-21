@@ -1,5 +1,5 @@
 import React from 'react'
-import {FooterTop, FootTextContainer, FooterDown} from "./FooterStyles"
+import {FooterTop, FootTextContainer, FooterDown,} from "./FooterStyles"
 
 import LogoWhite from "../../imgs/logos/logo-copa-white.png"
 

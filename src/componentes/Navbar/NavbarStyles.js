@@ -1,8 +1,13 @@
 import styled from "styled-components";
+import { NavLink } from 'react-router-dom';
+
+export const NavLinkStyled = styled(NavLink)`
+    color: white;
+`;
 
 export const NavbarContainer = styled.nav`
     display: flex;
-    align-items: center;
+    align-items: end;
     flex-direction: column;
     height: 100px;
     width: 100%;
@@ -38,7 +43,7 @@ export const NavbarCenter = styled.div`
     width: 100%;
     height: 80px;
     padding: 30px 50px;
-    z-index: 10;
+    z-index: 20;
 
     img {
         height: 40px;
@@ -92,6 +97,43 @@ export const Menuicon = styled(IconDesktopContainer)`
     display: none;
     @media (max-width: 768px) {
         display: flex;
-        font-size: 20px;
     }
 `;
+
+export const ButtonMenu = styled.button`
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 23px;
+    color: var(--white);
+    
+    :hover {
+        color: var(--blue);
+        transition: all .2s ease-in-out;
+    }
+`;
+
+export const MenuLinksContainer = styled.div`
+
+@media (max-width: 768px) {
+        display: none;
+        align-items: end;
+        flex-direction: column;
+        gap: 20px;
+        padding: 40px;
+        color: white;
+        background-color: var(--red);
+        width: 50%;
+        height: 100vh;
+        z-index: 100;
+
+        a {
+            font-size: 18px;
+        }
+
+        a:hover {
+            color: var(--blue);
+            transition: all .2s ease-in-out;
+        }
+    }    
+`

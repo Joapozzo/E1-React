@@ -4,18 +4,13 @@ import Hero from "./componentes/Hero/Hero"
 import Categories from "./componentes/Categories/Categories"
 import Products from "./componentes/Products/Products"
 import Footer from "./componentes/Footer/Footer"
+import Routes from "./routes/Routes"
 
 function App() {
 
   return (
     <>
-      <Navbar/>
-      <Layout>
-        <Hero/>
-        <Categories/>
-        <Products/>
-      </Layout>
-      <Footer/>
+      <Routes/>
     </>
   )
 }
