@@ -49,11 +49,11 @@ const Navbar = () => {
             </NavbarCenter>
 
             <MenuLinksContainer style={{ display: isMenuOpen ? 'flex' : 'none' }}>
-                <a href="#">Inicio</a>
-                <a href="#">Nuevo</a>
-                <a href="#">Productos</a>
-                <a href="#">Sobre Nosotros</a>
-                <a href="#">Contacto</a>
+                <NavLinkStyled to="/"> Inicio </NavLinkStyled>
+                <NavLinkStyled to="/"> Nuevo </NavLinkStyled>
+                <NavLinkStyled to="/products"> Productos </NavLinkStyled>
+                <NavLinkStyled to="/about"> Sobre Nosotros </NavLinkStyled>
+                <NavLinkStyled to="/contact"> Contacto </NavLinkStyled>
             </MenuLinksContainer>
             
         </NavbarContainer>

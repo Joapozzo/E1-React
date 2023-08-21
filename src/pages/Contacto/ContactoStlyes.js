@@ -24,6 +24,7 @@ export const ContactForm = styled.form`
         padding: 8px 10px;
         background-color: transparent;
         border: 1px solid var(--red);
+        color: white;
 
         @media (max-width: 768px) {
             width: 70%;
